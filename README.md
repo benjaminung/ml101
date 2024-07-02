@@ -1,0 +1,11 @@
+# Setup steps
+- Check if you have nvidia gpu
+- Install VSCode
+- Install Micromamba
+- Install env for pytorch
+    - micromamba env create --file mamba_environment.yml --yes
+- Install Python and Jupyter extensions in VSCode
+- Select mamba env as python interpreter
+    - ctrl+shift+p “Python: Select Interpreter”
+    - “Enter interpreter path"
+    - select folder of env

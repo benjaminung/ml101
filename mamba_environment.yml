@@ -1,0 +1,24 @@
+name: vae
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch-cuda=12.1
+  - torchvision
+  - torchaudio
+  - pytorch
+  - pytorch-model-summary
+  - opencv
+  - scikit-learn
+  - imutils
+  - torchmetrics
+  - jupyter
+  - pandas
+  - pyarrow
+  - openpyxl
+  - seaborn
+  - plotly
+  - tensorboard
+  - matplotlib
