@@ -1,4 +1,4 @@
-name: vae
+name: ml101
 channels:
   - pytorch
   - nvidia
@@ -9,16 +9,10 @@ dependencies:
   - torchvision
   - torchaudio
   - pytorch
-  - pytorch-model-summary
-  - opencv
   - scikit-learn
-  - imutils
   - torchmetrics
   - jupyter
   - pandas
-  - pyarrow
-  - openpyxl
-  - seaborn
   - plotly
   - tensorboard
   - matplotlib
